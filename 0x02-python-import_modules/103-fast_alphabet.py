@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 
-from string import ascii_uppercase
+import string
 
-print(ascii_uppercase)
+print(''.join([chr(i) for i in range(ord('A'), ord('Z')+1)]))
